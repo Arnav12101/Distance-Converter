@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "distanceconverter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div>
+    <a><span class="span1">Distance</span><span class="span2">Converter</span></a>
+    </div>
+    <div class="main-body">
+        
+    <h1>Enter your input:</h1>
+    <div class = "container top">
+        <p>Enter your distance and click the button to convert the distance into Meters</p>
+
+        <form class="form" method="post" actions="somephpfile.php" id="convert">
+            <input class="input-1" type="text" name="distance" id = "distance" placeholder = "distance">
+            <input class="convert-btn" type="submit" name="convertdist" value="convert">
+        </form>
+    </div>
+
+    <div class="container bottom" id="answer">
+        <h2 class="invisible">Your answer appears hear</h2>
+    </div>
+    </div>
+        <p class="footer">Created by Arnav Parmar</p>
+    <script src = "distanceconverter.js"></script>
+</body>
+</html>
